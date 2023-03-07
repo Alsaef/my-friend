@@ -1,0 +1,127 @@
+body {
+	font-family: 'Asap', sans-serif;
+	margin: 0;
+	padding: 0;
+}
+.header{
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+header { 
+	background-color: orange;
+	color: #fff;
+	padding: 10px;
+	text-align: center;
+}
+
+nav {
+	background-color: #666;
+	padding: 10px;
+	text-align: center;
+}
+
+nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+nav ul li {
+	display: inline-block;
+	margin-right: 20px;
+}
+
+nav ul li a {
+    font-weight: bold;
+	color: #fff;
+	text-decoration: none;
+}
+
+main {
+	margin-top: 10%;
+}
+
+.flexable{
+    display: flex;
+}
+.my-contant{
+    padding: 5%;
+    width: 50%;
+}
+.my-contant img{
+    width: 60%;
+}
+.heading{
+    text-shadow: 2px 2px 5px aquamarine;
+}
+.style h1{ 
+    font-weight: bold;
+}
+.style p{
+    font-weight: bold;
+    color: #666;
+}
+.style  span{
+    color: orange;
+}
+.style2 h1{  text-shadow: 2px 2px 5px red;
+    font-weight: bold;
+}
+.style2 p{
+    font-weight: bold;
+    color: #666;
+}
+.style2  span{
+    color: aqua;
+}
+.my-contant a{
+     background: orange;
+     padding: 10px 30px;
+     color: white;
+     font-weight: bold;
+     text-decoration: none;
+     text-shadow:2px 2px 5px skyblue ;
+     border-radius: 10px;
+}
+.my-contant a:hover{
+    background: white;
+    color:  orange; 
+    text-shadow:2px 2px 5px skyblue ;
+    box-shadow: 2px 2px 2px 2px #666;
+}
+.about{
+    background-color: rgb(255, 248, 238);
+    padding: 2px;
+    
+}
+.about-flex{
+   display: flex;
+}
+.about h1{
+    text-align: center;
+    text-shadow: 2px 2px 5px blueviolet;
+}
+.about p{
+    text-align: center;
+    font-weight: bold;
+    color: #fff;
+    text-shadow: 2px 2px 5px blueviolet;
+}
+.Contact-us{
+    padding: 20px;
+   margin: auto; 
+}
+.border{
+    border-bottom: black 2px dotted;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 25px;
+}
+footer a{
+    color: white;
+    font-size: 20px;
+}
