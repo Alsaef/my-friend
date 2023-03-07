@@ -41,6 +41,9 @@ nav ul li a {
 	color: #fff;
 	text-decoration: none;
 }
+nav ul li a:hover{
+    color: aqua;
+}
 
 main {
    height: 90vh;
@@ -55,7 +58,7 @@ main {
     width: 50%;
 }
 .my-contant img{
-    width: 60%;
+    width: 80%;
 }
 .heading{
     text-shadow: 2px 2px 5px aquamarine;
